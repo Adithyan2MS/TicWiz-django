@@ -1,0 +1,8 @@
+db.sqlite3
+TicketBuddy
+FrontendApp/__pycache__
+BackendApp/__pycache__
+FrontendApp/migrations/__pycache__
+BackendApp/migrations/__pycache__
+.idea
+media

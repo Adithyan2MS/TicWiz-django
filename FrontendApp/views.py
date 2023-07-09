@@ -119,7 +119,6 @@ def saveuserdetails(request):
 def payment(request):
     seat_data = Bookingdb.objects.filter(Name=request.session['username1'])
 
-
     return render(request,"payment.html",{"seat_data":seat_data})
 
 def ticket(request):
